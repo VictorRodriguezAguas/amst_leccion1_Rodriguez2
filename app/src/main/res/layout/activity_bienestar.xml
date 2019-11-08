@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sidweb">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:background="@drawable/bienestar"
+        />
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:hint="La Unidad  de Bienestar Politécnico (UBP) , es la unidad encargada de la ejecución y promoción de programas, planes y proyectos que garanticen tres aspectos fundamentales:" />
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:text=" (i)Un entorno de aprendizaje idóneo"
+
+
+
+        />
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:text="(ii) El cumplimiento de las disposiciones del artículo 86 de la LOES"
+
+
+
+        />
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:text="(iii) El bienestar de los estamentos politécnicos: profesores, estudiantes, servidores y obreros. Por el bienestar de la Comunidad Politécnica "
+
+
+
+        />
+
+
+
+
+</LinearLayout>

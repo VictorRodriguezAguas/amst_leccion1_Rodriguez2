@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sidweb">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:background="@drawable/sidweb"
+        />
+
+    <TextView
+        android:layout_width="331dp"
+        android:layout_height="189dp"
+        android:layout_gravity="center"
+        android:hint="SIDWeb (Sistema Interactivo de Desarrollo para el Web) es una herramienta de colaboración en línea, que contribuye al proceso educativo y de comunicación entre estudiantes y profesores; y permite desarrollar habilidades de cooperación e investigación grupal. Esta herramienta es utilizada por los alumnos y profesores de ESPOL para el manejo de los proyectos, las tareas y las calificaciones." />
+
+
+</LinearLayout>

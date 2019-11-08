@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sidweb">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:background="@drawable/academico"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_gravity="start"
+        android:hint="En el sitio www.academico.espol.edu.ec, el estudiante puede consultar en línea su historia académica, las materias aprobadas, las materias registradas, las calificaciones, las deudas que mantenga con la Institución, la malla curricular en forma gráfica, los datos de la planificación académica sobre cursos y horarios para el proceso de matriculación."
+/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Durante el periodo de matriculación al inicio de cada término académico (mayo y octubre) el estudiante puede registrarse en línea, desde cualquier lugar geográfico en los cursos y horarios que se ofrecen de acuerdo a su malla curricular.
+"/>
+
+
+</LinearLayout>
