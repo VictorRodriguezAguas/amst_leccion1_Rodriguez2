@@ -1,7 +1,7 @@
 package com.example.amst_l1_rodriguez_espolservicios;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,16 +22,24 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view) {
+        Intent intent=null;
         switch (view.getId()){
-            case btn1.setId(R.id.Sidweb)
+            case R.id.Sidweb:
+                intent=new Intent(MainActivity.this,Sidweb.class);
                 break;
-            case btn2.setId(R.id.Academico)
+            case R.id.Academico:
+                intent=new Intent(MainActivity.this,Academico.class);
+
                 break;
-            case btn3.setId(R.id.Vinculos)
+            case R.id.Vinculos:
+                 intent=new Intent(MainActivity.this,Vinculos.class);
+
                 break;
-            case btn4.setId(R.id.Bienestar)
+            case R.id.Bienestar:
+                 intent=new Intent(MainActivity.this,Bienestar.class);
+
                 break;
 
-        }
+        }startActivity(intent);
     }
 }
